@@ -9,7 +9,6 @@ import MeetupController from './app/controllers/MeetupController';
 
 import authMiddleware from './app/middlewares/auth';
 
-
 const routes = new Router();
 const upload = multer(multerConfig);
 
